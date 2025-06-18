@@ -1,0 +1,28 @@
+version: "3.8"
+
+services:
+  backend:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.backend
+    container_name: pizza-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ../data:/app/data
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.frontend
+    container_name: pizza-frontend
+    ports:
+      - "8501:8501"
+    volumes:
+      - ../data:/app/data
+    depends_on:
+      - backend
+    environment:
+      - BASE_URL=http://backend:8000
+    restart: unless-stopped

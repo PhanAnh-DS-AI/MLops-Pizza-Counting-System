@@ -1,0 +1,10 @@
+[project]
+name = "mlops-pizza-detection"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "sort-tracker-py>=1.0.2",
+    "ultralytics>=8.3.154",
+]
