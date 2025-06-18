@@ -23,7 +23,7 @@ Although the system is not required to include model retraining, it should be de
 
 ## 📊 Pipeline Overview
 
-![Pipeline Diagram](./img_video_demo/pipeline.png)
+![Pipeline Diagram](img_video_demo/pipeline.png)
 
 The main components of the pipeline include:
 
@@ -38,10 +38,8 @@ The main components of the pipeline include:
 
 ## 🎬 Demo
 
-Watch the demo video here:
-
-[![Demo Video]](./img_video_demo/pizza_countin_demo.mp4)
-<video src="./img_video_demo/pizza_countin_demo.mp4" controls width="600"></video>
+[![Demo Video, download the video to watch, thank you!]](img_video_demo/pizza_countin_demo.mp4)
+<video src="img_video_demo/pizza_countin_demo.mp4" controls width="600"></video>
 
 ---
 
