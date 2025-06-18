@@ -23,7 +23,7 @@ Although the system is not required to include model retraining, it should be de
 
 ## 📊 Pipeline Overview
 
-![Pipeline Diagram](img_video_demo/MLops_pipeline_pizza.png)
+![Pipeline Diagram](img_video_demo/pipeline.png)
 
 The main components of the pipeline include:
 
