@@ -75,7 +75,7 @@ docker-compose up --build
 pip install -r requirements.txt
 
 # In terminal 1
-uvicorn src.api.app:app --host 0.0.0.0 --port 8000
+uvicorn src.api.app:app --host localhost --port 8000 --reload
 
 # In terminal 2
 streamlit run src/streamlit/client.py --server.port=8501
